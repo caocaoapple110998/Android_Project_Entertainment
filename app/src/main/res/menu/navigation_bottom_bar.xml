@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/navigaiton_bottom_home"
+        android:id="@+id/action_item1"
+        android:title="Trang Chủ"/>
+    <item
+        android:icon="@drawable/navigaion_bottom_dsk"
+        android:id="@+id/action_item2"
+        android:title="Danh Sách Kênh"/>
+    <item
+        android:icon="@drawable/navigation_bottom_yeuthich"
+        android:id="@+id/action_item3"
+        android:title="Yêu Thích"/>
+</menu>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_HaiKich_DSK"
+            android:textSize="25sp"
+            android:paddingTop="60dp"
+            android:textAlignment="center"
+            android:background="@color/color_bac"
+            android:text="Hài Kịch"
+            android:layout_margin="20dp"
+            android:layout_width="150dp"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/txt_CaNhac_DSK"
+            android:textSize="25sp"
+            android:paddingTop="60dp"
+            android:textAlignment="center"
+            android:background="@color/color_ca_nhac_dsk"
+            android:text="Ca Nhạc"
+            android:layout_margin="20dp"
+            android:layout_width="150dp"
+            android:layout_height="200dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_TheThao_DSK"
+            android:textSize="25sp"
+            android:paddingTop="60dp"
+            android:textAlignment="center"
+            android:background="@color/color_the_thao_dsk"
+            android:text="Thể Thao"
+            android:layout_margin="20dp"
+            android:layout_width="150dp"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/txt_Phim_DSK"
+            android:textSize="25sp"
+            android:paddingTop="60dp"
+            android:textAlignment="center"
+            android:background="@color/color_phim_dsk"
+            android:text="Phim"
+            android:layout_margin="20dp"
+            android:layout_width="150dp"
+            android:layout_height="200dp" />
+
+    </LinearLayout>
+</LinearLayout>
